@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="468.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.inppracticalexam.ClientController">
+   <children>
+      <Label fx:id="lblClientName" alignment="CENTER" layoutX="226.0" layoutY="41.0" prefHeight="39.0" prefWidth="202.0" style="-fx-background-color: lightblue;" text="Client">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <VBox fx:id="chatPain" layoutX="21.0" layoutY="103.0" prefHeight="290.0" prefWidth="595.0" style="-fx-background-color: lightblue;" />
+      <TextField fx:id="txtMassage" layoutX="33.0" layoutY="415.0" prefHeight="26.0" prefWidth="446.0" promptText="Type here your massaaga..." />
+      <Button fx:id="btnSendMassage" layoutX="507.0" layoutY="415.0" mnemonicParsing="false" onAction="#btnSendMassageOnAction" prefHeight="26.0" prefWidth="78.0" text="Send" />
+   </children>
+</AnchorPane>
